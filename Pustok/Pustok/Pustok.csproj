@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\assets\bootstrap-5.0.2\bootstrap-5.0.2\.github\CODEOWNERS" />
     <None Include="wwwroot\assets\bootstrap-5.0.2\bootstrap-5.0.2\.github\CONTRIBUTING.md" />
     <None Include="wwwroot\assets\bootstrap-5.0.2\bootstrap-5.0.2\.github\dependabot.yml" />
@@ -26,6 +22,16 @@
     <None Include="wwwroot\assets\bootstrap-5.0.2\bootstrap-5.0.2\.github\workflows\lint.yml" />
     <None Include="wwwroot\assets\bootstrap-5.0.2\bootstrap-5.0.2\.github\workflows\node-sass.yml" />
     <None Include="wwwroot\assets\bootstrap-5.0.2\bootstrap-5.0.2\.github\workflows\release-notes.yml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>
