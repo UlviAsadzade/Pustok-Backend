@@ -145,3 +145,4 @@ C:\Users\lenovo\OneDrive\Masaüstü\Pustok-Backend\Pustok\Pustok\bin\Debug\net5.
 C:\Users\lenovo\OneDrive\Masaüstü\Pustok-Backend\Pustok\Pustok\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\lenovo\OneDrive\Masaüstü\Pustok-Backend\Pustok\Pustok\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\lenovo\OneDrive\Masaüstü\Pustok-Backend\Pustok\Pustok\obj\Debug\net5.0\Razor\Views\Shared\_TabBooksPartial.cshtml.g.cs
+C:\Users\lenovo\OneDrive\Masaüstü\Pustok-Backend\Pustok\Pustok\obj\Debug\net5.0\Razor\Views\Shared\_BookModalPartial.cshtml.g.cs

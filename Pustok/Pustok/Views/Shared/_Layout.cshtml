@@ -845,6 +845,32 @@
             </div>
         </div>
         @RenderBody();
+
+        <!-- Modal -->
+        <div class="modal fade modal-quick-view" id="quickModal" tabindex="-1" role="dialog"
+             aria-labelledby="quickModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close modal-close-btn ml-auto" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="product-details-modal">
+
+                    </div>
+                    <div class="modal-footer">
+                        <div class="widget-social-share">
+                            <span class="widget-label">Share:</span>
+                            <div class="modal-social-share">
+                                <a href="#" class="single-icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="single-icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="single-icon"><i class="fab fa-youtube"></i></a>
+                                <a href="#" class="single-icon"><i class="fab fa-google-plus-g"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!--=================================
     Brands Slider
@@ -988,10 +1014,13 @@
             </div>
         </div>
     </footer>
+
+
     <!-- Use Minified Plugins Version For Fast Page Load -->
     <script src="~/assets/js/plugins.js"></script>
     <script src="~/assets/js/ajax-mail.js"></script>
     <script src="~/assets/js/custom.js"></script>
+    <script src="~/assets/js/main.js"></script>
 </body>
 
 

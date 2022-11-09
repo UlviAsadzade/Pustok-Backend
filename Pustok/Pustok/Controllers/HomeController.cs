@@ -32,6 +32,17 @@ namespace Pustok.Controllers
             return View(homeVM);
         }
 
+        public IActionResult GetBook(int id)
+        {
+            Book book = _context.Books
+                 .Include(x => x.BookImages).Include(x => x.Genre)
+                 .Include(x => x.BookTags).ThenInclude(x => x.Tag)
+                 .Include(x=>x.Author)
+                 .FirstOrDefault(x => x.Id == id);
+
+            return PartialView("_BookModalPartial",book);
+        }
+
        
     }
 }
