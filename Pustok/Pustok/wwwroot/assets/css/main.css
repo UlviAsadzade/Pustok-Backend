@@ -15566,7 +15566,9 @@ input[type="number"] {
 .product-card {
   text-align: center; }
   .product-card .product-header {
-    padding: 0 15px; }
+    padding: 0 15px;
+    min-height: 80px;
+  }
   .product-card .author {
     font-size: 14px;
     font-weight: 400;
